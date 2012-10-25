@@ -17,10 +17,10 @@ class SpecialHostStats extends SpecialPage {
 		$this->setHeaders();
 		$wgOut->setPageTitle( wfMessage( 'hoststats-title' ) );
 		$outpage = wfMessage( 'hoststats-intro' );
-		$outpage = "\n";
+		$outpage .= "\n";
 		foreach ( $wgHostStatsCommands as $cmd ) {
-			$outpage .= '=== ' . $cmd . ' ===';
-			$outpage .= "<pre>\n" . $this->query( $cmd ) . "\n</pre>";
+			$outpage .= '<h3>' . $cmd . '</h3>';
+			$outpage .= "\n<pre>\n" . $this->query( $cmd ) . "</pre>";
 		}
 		$wgOut->addWikiText( $outpage );
 	}
