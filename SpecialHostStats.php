@@ -1,23 +1,32 @@
 <?php
 /**
- * Copyright (C) 2012 Hydriz
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * The file that implements Special:HostStats.
+ * 
+ * @file
+ * @ingroup Extensions
  */
 
 class SpecialHostStats extends SpecialPage {
 	function __construct() {
 		parent::__construct( 'HostStats' );
-		wfLoadExtensionMessages('HostStats');
+	}
+
+	function execute( $par ) {
+		global $wgRequest, $wgOut;
+		global $wgHostStatsCommands;
+		$this->setHeaders();
+		$wgOut->setPageTitle( wfMessage( 'hoststats-title' ) );
+		$outpage = wfMessage( 'hoststats-intro' );
+		$outpage = "\n";
+		foreach ( $wgHostStatsCommands as $cmd ) {
+			$outpage .= '=== ' . $cmd . ' ===';
+			$outpage .= "<pre>\n" . $this->query( $cmd ) . "\n</pre>";
+		}
+		$wgOut->addWikiText( $outpage );
+	}
+
+	function query( $query ) {
+		$output = shell_exec( $query );
+		return $output;
 	}
 }

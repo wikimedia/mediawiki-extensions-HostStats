@@ -1,19 +1,13 @@
 <?php
 /**
- * Copyright (C) 2012 Hydriz
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
+ * The HostStats extension adds a special page that displays 
+ * the statistics of the host that the wiki is running on.
+ * 
+ * This extension may expose some private information about 
+ * your server, so please use it with care, especially when 
+ * you change $wgHostStatsCommands below.
+ * 
+ * @file
  * @ingroup Extensions
  */
 
@@ -21,9 +15,14 @@ $wgExtensionCredits['specialpage'][] = array(
         'name' => 'HostStats',
         'author' => 'Hydriz',
         'url' => 'http://www.mediawiki.org/wiki/Extension:HostStats',
-        'description' => 'Adds a special page to display the host server statistics.',
         'descriptionmsg' => 'hoststats-desc',
         'version' => '1.0.0',
+);
+
+// An array of commands that you wish to run and output.
+$wgHostStatsCommands = array(
+	'hostname',
+	'df -h'
 );
 
 $dir = dirname(__FILE__) . '/';
