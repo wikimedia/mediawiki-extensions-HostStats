@@ -29,3 +29,4 @@ $dir = dirname(__FILE__) . '/';
 $wgAutoloadClasses['SpecialHostStats'] = $dir . 'SpecialHostStats.php';
 $wgExtensionMessagesFiles['HostStats'] = $dir . 'HostStats.i18n.php';
 $wgSpecialPages['HostStats'] = 'SpecialHostStats';
+$wgSpecialPageGroups['HostStats'] = 'wiki';
