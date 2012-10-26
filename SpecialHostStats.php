@@ -26,7 +26,7 @@ class SpecialHostStats extends SpecialPage {
 	}
 
 	function query( $query ) {
-		$output = shell_exec( $query );
+		$output = wfShellExec( $query );
 		return $output;
 	}
 }
