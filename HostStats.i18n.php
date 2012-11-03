@@ -1,6 +1,6 @@
 <?php
 /**
- * Internationalisation file for PrefixExport extension.
+ * Internationalisation file for HostStats extension.
  * 
  * @file
  * @ingroup Extensions
