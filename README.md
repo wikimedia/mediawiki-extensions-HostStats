@@ -15,3 +15,6 @@ If you need, you can configure the commands you wish to run and display using `$
 	);
 
 **Note**: You are configuring this at your own risk! Such commands may accidentally reveal information that an attacker may steal and manipulate to launch an attack against your server!
+
+### Issues/Questions?
+Proceed directly to the [issue tracker](https://github.com/Hydriz/HostStats/issues) and create a new issue. It will be looked at as soon as possible.
