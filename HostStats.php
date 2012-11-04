@@ -12,11 +12,12 @@
  */
 
 $wgExtensionCredits['specialpage'][] = array(
-        'name' => 'HostStats',
-        'author' => 'Hydriz',
-        'url' => 'http://www.mediawiki.org/wiki/Extension:HostStats',
-        'descriptionmsg' => 'hoststats-desc',
-        'version' => '1.2.0',
+	'path' => __FILE__,
+	'name' => 'HostStats',
+	'author' => 'Hydriz',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:HostStats',
+	'descriptionmsg' => 'hoststats-desc',
+	'version' => '1.2.0',
 );
 
 // An array of commands that you wish to run and output.
