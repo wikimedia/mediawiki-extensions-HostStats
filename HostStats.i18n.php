@@ -47,6 +47,15 @@ $messages['es'] = array(
 	'hoststats-intro' => 'Esta página muestra algunas estadísticas del servidor en que se encuentra el wiki.',
 );
 
+/** French (français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'hoststats-title' => "Statistiques de l'hôte",
+	'hoststats-desc' => "Un outil pour sortir les statistiques de l'hôte sur lequel se trouve le wiki.",
+	'hoststats-intro' => "Cette page affiche des statistiques de l'hôte sur lequel se trouve le wiki.",
+);
+
 /** Galician (galego)
  * @author Toliño
  */
@@ -54,6 +63,15 @@ $messages['gl'] = array(
 	'hoststats-title' => 'Estatísticas do servidor',
 	'hoststats-desc' => 'Unha ferramenta que mostra as estatísticas do servidor no que se atopa este wiki.',
 	'hoststats-intro' => 'Esta páxina mostra algunhas estatísticas do servidor no que se atopa este wiki.',
+);
+
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'hoststats-title' => "Statistiche relative all'host",
+	'hoststats-desc' => "Uno strumento per mostrare le statistiche riguardo all'host in cui si trova questo wiki.",
+	'hoststats-intro' => 'Questa pagina mostra alcune statistiche riguardo al server in cui viene ospitato questo wiki.',
 );
 
 /** Japanese (日本語)
