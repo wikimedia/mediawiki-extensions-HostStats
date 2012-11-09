@@ -65,6 +65,15 @@ $messages['gl'] = array(
 	'hoststats-intro' => 'Esta páxina mostra algunhas estatísticas do servidor no que se atopa este wiki.',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'hoststats-title' => 'סטטיסטיקות מארח',
+	'hoststats-desc' => 'כלי לפליטת סטטיסטיקות על המארח של הוויקי',
+	'hoststats-intro' => 'הדף הזה מציג סטטיסטיקות על הדף השוויקי נמצא בו.',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
