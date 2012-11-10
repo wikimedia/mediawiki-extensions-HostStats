@@ -74,6 +74,15 @@ $messages['he'] = array(
 	'hoststats-intro' => 'הדף הזה מציג סטטיסטיקות על הדף השוויקי נמצא בו.',
 );
 
+/** Hungarian (magyar)
+ * @author Tgr
+ */
+$messages['hu'] = array(
+	'hoststats-title' => 'Szerverstatisztika',
+	'hoststats-desc' => 'Statisztikákat jelenít meg arról a szerverről, amiről a wiki üzemel.',
+	'hoststats-intro' => 'Statisztikákat mutat a szerverről, amiről a wiki üzemel.',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
