@@ -25,7 +25,7 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'hoststats' => '{{notranslate}}',
 	'hoststats-title' => 'The title of the special page. "Host" refers to the server the wiki is on.',
-	'hoststats-desc' => '{{desc}}',
+	'hoststats-desc' => '{{desc|name=Host Stats|url=http://www.mediawiki.org/wiki/Extension:HostStats}}',
 	'hoststats-intro' => 'The introduction to the special page. "Host" refers to the server the wiki is on.',
 );
 
@@ -99,6 +99,15 @@ $messages['ja'] = array(
 	'hoststats-title' => 'ホストに関する統計',
 	'hoststats-desc' => 'ウィキが動作しているホストに関する統計を出力するツール',
 	'hoststats-intro' => 'このページでは、ウィキが動作しているホストに関する統計を表示します。',
+);
+
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'hoststats-title' => 'Host-Statistiken',
+	'hoststats-desc' => "En Tool fir d'Statistike vum Host ze wesien op deem d'Wiki drop steet.",
+	'hoststats-intro' => "Dës Säit weist e puer Statistike vum Host wou d'Wiki drop steet.",
 );
 
 /** Macedonian (македонски)
