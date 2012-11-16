@@ -74,6 +74,15 @@ $messages['he'] = array(
 	'hoststats-intro' => 'הדף הזה מציג סטטיסטיקות על הדף השוויקי נמצא בו.',
 );
 
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'hoststats-title' => 'Hostowa statistika',
+	'hoststats-desc' => 'Nastroj za wudawanje statistiki hosta, na kotrymž wiki je.',
+	'hoststats-intro' => 'Tuta strona pokazuje statistiku hosta, na kotrymž wiki je.',
+);
+
 /** Hungarian (magyar)
  * @author Tgr
  */
