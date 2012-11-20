@@ -127,3 +127,12 @@ $messages['mk'] = array(
 	'hoststats-desc' => 'Алатка за испис на статистики за домаќинот (опслужувачот на викито).',
 	'hoststats-intro' => 'На страницава се пркажани извсни статистики за домаќинот на викито.',
 );
+
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'hoststats-title' => 'Hoststatistieken',
+	'hoststats-desc' => 'Een hulpmiddel om de hoststatistieken waar de wiki op draait',
+	'hoststats-intro' => 'Op deze pagina worden de hoststatistieken waar de wiki op draait weergegeven.',
+);
