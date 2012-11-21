@@ -110,6 +110,15 @@ $messages['ja'] = array(
 	'hoststats-intro' => 'このページでは、ウィキが動作しているホストに関する統計を表示します。',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'hoststats-title' => 'Shtatistike vun heh däm Rääschner',
+	'hoststats-desc' => 'E Wärkzüsch öm de Schtatistike von däm Rääschner ußzejävve, woh dat Wiki dren lääf.',
+	'hoststats-intro' => 'He süht mer e paa Schtatistike von däm Rääschner, woh heh dat Wiki drop läuf.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
