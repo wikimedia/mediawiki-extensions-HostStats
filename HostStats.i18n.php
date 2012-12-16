@@ -145,3 +145,12 @@ $messages['nl'] = array(
 	'hoststats-desc' => 'Een hulpmiddel om de hoststatistieken waar de wiki op draait',
 	'hoststats-intro' => 'Op deze pagina worden de hoststatistieken waar de wiki op draait weergegeven.',
 );
+
+/** Ukrainian (українська)
+ * @author Ата
+ */
+$messages['uk'] = array(
+	'hoststats-title' => 'Статистика сервера',
+	'hoststats-desc' => 'Інструмент виведення статистики сервера, на якому знаходиться вікі',
+	'hoststats-intro' => 'На цій сторінці відображається деяка статистика сервера, на якому знаходиться вікі',
+);
