@@ -17,7 +17,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author' => 'Hydriz',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:HostStats',
 	'descriptionmsg' => 'hoststats-desc',
-	'version' => '1.2.0',
+	'version' => '1.3alpha',
 );
 
 // An array of commands that you wish to run and output.
