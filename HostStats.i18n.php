@@ -29,6 +29,15 @@ $messages['qqq'] = array(
 	'hoststats-intro' => 'The introduction to the special page. "Host" refers to the server the wiki is on.',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'hoststats-title' => 'Estadístiques del sirvidor',
+	'hoststats-desc' => "Ferramienta qu'amuesa les estadístiques del sirvidor nel que ta la wiki.",
+	'hoststats-intro' => 'Esta páxina amuesa delles estadístiques del sirvidor nel que ta la wiki.',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
@@ -144,6 +153,13 @@ $messages['nl'] = array(
 	'hoststats-title' => 'Hoststatistieken',
 	'hoststats-desc' => 'Een hulpmiddel om de hoststatistieken waar de wiki op draait',
 	'hoststats-intro' => 'Op deze pagina worden de hoststatistieken waar de wiki op draait weergegeven.',
+);
+
+/** Romanian (română)
+ * @author Firilacroco
+ */
+$messages['ro'] = array(
+	'hoststats-title' => 'Statistici de găzduire',
 );
 
 /** Ukrainian (українська)
