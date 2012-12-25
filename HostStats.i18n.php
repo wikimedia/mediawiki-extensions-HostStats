@@ -155,6 +155,15 @@ $messages['nl'] = array(
 	'hoststats-intro' => 'Op deze pagina worden de hoststatistieken waar de wiki op draait weergegeven.',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'hoststats-title' => "Statìstiche dl'òspit",
+	'hoststats-desc' => "N'utiss për mosté le statìstiche dl'òspit anté a l'é la wiki",
+	'hoststats-intro' => "Sta pagina a mosta quaich statìstiche dl'òspit anté a l'é la wiki.",
+);
+
 /** Romanian (română)
  * @author Firilacroco
  */
