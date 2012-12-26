@@ -171,6 +171,13 @@ $messages['ro'] = array(
 	'hoststats-title' => 'Statistici de găzduire',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'hoststats-title' => 'ධාරක සංඛ්‍යා ලේඛන',
+);
+
 /** Ukrainian (українська)
  * @author Ата
  */
@@ -178,4 +185,22 @@ $messages['uk'] = array(
 	'hoststats-title' => 'Статистика сервера',
 	'hoststats-desc' => 'Інструмент виведення статистики сервера, на якому знаходиться вікі',
 	'hoststats-intro' => 'На цій сторінці відображається деяка статистика сервера, на якому знаходиться вікі',
+);
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Hydra
+ */
+$messages['zh-hans'] = array(
+	'hoststats-title' => '服务器统计',
+	'hoststats-desc' => '一个输出维基在的服务器统计的工具',
+	'hoststats-intro' => '此页面显示出一些这个维基在的服务器的统计。',
+);
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Hydra
+ */
+$messages['zh-hant'] = array(
+	'hoststats-title' => '服務器統計',
+	'hoststats-desc' => '一個輸出維基在的服務器統計的工具',
+	'hoststats-intro' => '此頁面顯示出一些這個維基在的服務器的統計。',
 );
