@@ -47,6 +47,13 @@ $messages['de'] = array(
 	'hoststats-intro' => 'Diese Seite zeigt einige Statistiken des Hosts dieses Wikis an.',
 );
 
+/** Greek (Ελληνικά)
+ * @author ZaDiak
+ */
+$messages['el'] = array(
+	'hoststats-title' => 'Στατιστικά υποδοχής',
+);
+
 /** Spanish (español)
  * @author Armando-Martin
  */
