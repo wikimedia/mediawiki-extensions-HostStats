@@ -72,6 +72,13 @@ $messages['fr'] = array(
 	'hoststats-intro' => "Cette page affiche des statistiques de l'hôte sur lequel se trouve le wiki.",
 );
 
+/** Franco-Provençal (arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'hoststats-title' => 'Statistiques de l’hôto',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
