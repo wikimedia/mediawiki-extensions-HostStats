@@ -38,6 +38,13 @@ $messages['ast'] = array(
 	'hoststats-intro' => 'Esta páxina amuesa delles estadístiques del sirvidor nel que ta la wiki.',
 );
 
+/** Czech (česky)
+ * @author Vks
+ */
+$messages['cs'] = array(
+	'hoststats-title' => 'Statistika serveru',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
