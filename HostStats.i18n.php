@@ -177,12 +177,13 @@ $messages['nl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
 	'hoststats-title' => "Statìstiche dl'òspit",
-	'hoststats-desc' => "N'utiss për mosté le statìstiche dl'òspit anté a l'é la wiki",
-	'hoststats-intro' => "Sta pagina a mosta quaich statìstiche dl'òspit anté a l'é la wiki.",
+	'hoststats-desc' => "N'utiss për smon-e le statìstiche dl'òspit anté ch'a-i é la wiki",
+	'hoststats-intro' => "Costa pàgina a smon dle statìstiche dl'òspit anté ch'a-i é la wiki.",
 );
 
 /** Romanian (română)
