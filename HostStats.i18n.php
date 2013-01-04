@@ -167,6 +167,13 @@ $messages['mk'] = array(
 	'hoststats-intro' => 'На страницава се пркажани извсни статистики за домаќинот на викито.',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'hoststats-title' => 'Statistik hos',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
