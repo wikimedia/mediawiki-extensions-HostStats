@@ -172,6 +172,8 @@ $messages['mk'] = array(
  */
 $messages['ms'] = array(
 	'hoststats-title' => 'Statistik hos',
+	'hoststats-desc' => 'Alat untuk menyiarkan statistik hos wiki',
+	'hoststats-intro' => 'Halaman ini memaparkan sedikit statistik hos wiki.',
 );
 
 /** Dutch (Nederlands)
