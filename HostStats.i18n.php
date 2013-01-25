@@ -202,6 +202,13 @@ $messages['ro'] = array(
 	'hoststats-title' => 'Statistici de găzduire',
 );
 
+/** Russian (русский)
+ * @author DCamer
+ */
+$messages['ru'] = array(
+	'hoststats-title' => 'Статистика хоста',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
