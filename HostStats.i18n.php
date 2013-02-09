@@ -202,6 +202,13 @@ $messages['ro'] = array(
 	'hoststats-title' => 'Statistici de găzduire',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'hoststats-title' => "Statisteche de l'host",
+);
+
 /** Russian (русский)
  * @author DCamer
  */
