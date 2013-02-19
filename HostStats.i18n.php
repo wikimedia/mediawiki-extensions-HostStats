@@ -207,6 +207,8 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'hoststats-title' => "Statisteche de l'host",
+	'hoststats-desc' => "'Nu strumende pe dà le statisteche de l'host addò ste 'a uicchi",
+	'hoststats-intro' => "Sta pàgene face vedè quacche statisteche de l'host addò se iacchie 'a uicchi.",
 );
 
 /** Russian (русский)
