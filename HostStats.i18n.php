@@ -140,6 +140,15 @@ $messages['ja'] = array(
 	'hoststats-intro' => 'このページでは、ウィキが動作しているホストに関する統計を表示します。',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'hoststats-title' => '호스트 통계',
+	'hoststats-desc' => '위키에 있는 호스트 통계를 출력하는 도구',
+	'hoststats-intro' => '이 문서는 위키에 있는 일부 호스트 통계를 보여줍니다.',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
