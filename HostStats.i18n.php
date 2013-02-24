@@ -145,8 +145,8 @@ $messages['ja'] = array(
  */
 $messages['ko'] = array(
 	'hoststats-title' => '호스트 통계',
-	'hoststats-desc' => '위키에 있는 호스트 통계를 출력하는 도구',
-	'hoststats-intro' => '이 문서는 위키에 있는 일부 호스트 통계를 보여줍니다.',
+	'hoststats-desc' => '위키에 작동하는 호스트 통계를 출력하는 도구',
+	'hoststats-intro' => '이 문서는 위키에 작동하는 일부 호스트 통계를 보여줍니다.',
 );
 
 /** Colognian (Ripoarisch)
