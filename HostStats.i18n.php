@@ -24,7 +24,8 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'hoststats' => '{{notranslate}}',
-	'hoststats-title' => 'The title of the special page. "Host" refers to the server the wiki is on.',
+	'hoststats-title' => '{{doc-special|HostStats}}
+"Host" refers to the server the wiki is on.',
 	'hoststats-desc' => '{{desc|name=Host Stats|url=http://www.mediawiki.org/wiki/Extension:HostStats}}',
 	'hoststats-intro' => 'The introduction to the special page. "Host" refers to the server the wiki is on.',
 );
