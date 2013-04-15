@@ -154,7 +154,7 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'hoststats-title' => 'Shtatistike vun heh däm Rääschner',
+	'hoststats-title' => 'Schtatistike vun heh däm Rääschner',
 	'hoststats-desc' => 'E Wärkzüsch öm de Schtatistike von däm Rääschner ußzejävve, woh dat Wiki dren lääf.',
 	'hoststats-intro' => 'He süht mer e paa Schtatistike von däm Rääschner, woh heh dat Wiki drop läuf.',
 );
