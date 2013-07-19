@@ -195,6 +195,15 @@ $messages['nl'] = array(
 	'hoststats-intro' => 'Op deze pagina worden de hoststatistieken waar de wiki op draait weergegeven.',
 );
 
+/** Polish (polski)
+ * @author Woytecr
+ */
+$messages['pl'] = array(
+	'hoststats-title' => 'Statystyki serwera',
+	'hoststats-desc' => 'Narzędzie do wyświetlania statystyk serwera, na którym uruchomiona jest wiki',
+	'hoststats-intro' => 'Ta strona pokazuje statystyki serwera, na którym uruchomiona jest wiki',
+);
+
 /** Piedmontese (Piemontèis)
  * @author Borichèt
  * @author Dragonòt
