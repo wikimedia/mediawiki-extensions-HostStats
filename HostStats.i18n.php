@@ -23,7 +23,8 @@ $messages['en'] = array(
  * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'hoststats' => '{{notranslate}}',
+	'hoststats' => '{{notranslate}}
+Refers to {{msg-mw|Hoststats-title}}.',
 	'hoststats-title' => '{{doc-special|HostStats}}
 "Host" refers to the server the wiki is on.',
 	'hoststats-desc' => '{{desc|name=Host Stats|url=http://www.mediawiki.org/wiki/Extension:HostStats}}',
