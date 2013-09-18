@@ -224,6 +224,15 @@ $messages['pms'] = array(
 	'hoststats-intro' => "Costa pàgina a smon dle statìstiche dl'òspit anté ch'a-i é la wiki.",
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'hoststats-title' => 'Estatísticas do servidor',
+	'hoststats-desc' => 'Uma ferramenta para produzir estatísticas do servidor que hospeda a wiki',
+	'hoststats-intro' => 'Esta página exibe algumas estatísticas do servidor que hospeda esta wiki.',
+);
+
 /** Romanian (română)
  * @author Firilacroco
  */
