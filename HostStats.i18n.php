@@ -251,9 +251,12 @@ $messages['roa-tara'] = array(
 
 /** Russian (русский)
  * @author DCamer
+ * @author Okras
  */
 $messages['ru'] = array(
 	'hoststats-title' => 'Статистика хоста',
+	'hoststats-desc' => 'Инструмент для вывода статистики хоста, на котором расположена вики.',
+	'hoststats-intro' => 'Эта страница показывает некоторую статистику по хосту, на котором расположена вики.',
 );
 
 /** Sinhala (සිංහල)
