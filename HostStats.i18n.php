@@ -40,7 +40,7 @@ $messages['ast'] = array(
 	'hoststats-intro' => 'Esta páxina amuesa delles estadístiques del sirvidor nel que ta la wiki.',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Vks
  */
 $messages['cs'] = array(
