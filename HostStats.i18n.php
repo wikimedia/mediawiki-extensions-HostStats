@@ -72,6 +72,15 @@ $messages['es'] = array(
 	'hoststats-intro' => 'Esta página muestra algunas estadísticas del servidor en que se encuentra el wiki.',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'hoststats-title' => 'آمارهای گروه',
+	'hoststats-desc' => 'ابزاری برای عرضهٔ آمارهای گروهی که ویکی در آن است',
+	'hoststats-intro' => 'این صفحه بعضی از آمارهای گروهی را که ویکی در آن است را نمایش می‌دهد.',
+);
+
 /** French (français)
  * @author Gomoko
  */
