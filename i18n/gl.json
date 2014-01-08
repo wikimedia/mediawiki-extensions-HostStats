@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Toliño"
+        ]
+    },
+    "hoststats-title": "Estatísticas do servidor",
+    "hoststats-desc": "Unha ferramenta que mostra as estatísticas do servidor no que se atopa este wiki.",
+    "hoststats-intro": "Esta páxina mostra algunhas estatísticas do servidor no que se atopa este wiki."
+}

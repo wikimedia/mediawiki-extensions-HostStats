@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Hydra"
+        ]
+    },
+    "hoststats-title": "服務器統計",
+    "hoststats-desc": "一個輸出維基在的服務器統計的工具",
+    "hoststats-intro": "此頁面顯示出一些這個維基在的服務器的統計。"
+}

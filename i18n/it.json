@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Beta16"
+        ]
+    },
+    "hoststats-title": "Statistiche relative all'host",
+    "hoststats-desc": "Uno strumento per mostrare le statistiche riguardo all'host in cui si trova questo wiki.",
+    "hoststats-intro": "Questa pagina mostra alcune statistiche riguardo al server in cui viene ospitato questo wiki."
+}

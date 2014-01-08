@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Tgr"
+        ]
+    },
+    "hoststats-title": "Szerverstatisztika",
+    "hoststats-desc": "Statisztikákat jelenít meg arról a szerverről, amiről a wiki üzemel.",
+    "hoststats-intro": "Statisztikákat mutat a szerverről, amiről a wiki üzemel."
+}

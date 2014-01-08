@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Gomoko"
+        ]
+    },
+    "hoststats-title": "Statistiques de l'hôte",
+    "hoststats-desc": "Un outil pour sortir les statistiques de l'hôte sur lequel se trouve le wiki.",
+    "hoststats-intro": "Cette page affiche des statistiques de l'hôte sur lequel se trouve le wiki."
+}

@@ -29,5 +29,6 @@ $wgHostStatsCommands = array(
 $dir = dirname(__FILE__) . '/';
 $wgAutoloadClasses['SpecialHostStats'] = $dir . 'SpecialHostStats.php';
 $wgExtensionMessagesFiles['HostStats'] = $dir . 'HostStats.i18n.php';
+$wgMessagesDirs['HostStats'] = __DIR__ . '/i18n';
 $wgSpecialPages['HostStats'] = 'SpecialHostStats';
 $wgSpecialPageGroups['HostStats'] = 'wiki';

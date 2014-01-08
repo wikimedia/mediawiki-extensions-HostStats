@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Woytecr"
+        ]
+    },
+    "hoststats-title": "Statystyki serwera",
+    "hoststats-desc": "Narzędzie do wyświetlania statystyk serwera, na którym uruchomiona jest wiki",
+    "hoststats-intro": "Ta strona pokazuje statystyki serwera, na którym uruchomiona jest wiki"
+}

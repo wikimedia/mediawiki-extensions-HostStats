@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Shirayuki"
+        ]
+    },
+    "hoststats-title": "ホストに関する統計",
+    "hoststats-desc": "ウィキが動作しているホストに関する統計を出力するツール",
+    "hoststats-intro": "このページでは、ウィキが動作しているホストに関する統計を表示します。"
+}
