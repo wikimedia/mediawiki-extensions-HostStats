@@ -18,7 +18,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'url' => 'https://www.mediawiki.org/wiki/Extension:HostStats',
 	'descriptionmsg' => 'hoststats-desc',
 	'version' => '1.3alpha',
-	'license-name' => 'GNU GPL v3',
+	'license-name' => 'GPL-3.0+',
 );
 
 // An array of commands that you wish to run and output.
