@@ -1,12 +1,12 @@
 <?php
 /**
- * The HostStats extension adds a special page that displays 
+ * The HostStats extension adds a special page that displays
  * the statistics of the host that the wiki is running on.
- * 
- * This extension may expose some private information about 
- * your server, so please use it with care, especially when 
+ *
+ * This extension may expose some private information about
+ * your server, so please use it with care, especially when
  * you change $wgHostStatsCommands below.
- * 
+ *
  * @file
  * @ingroup Extensions
  */
@@ -29,7 +29,7 @@ $wgHostStatsCommands = array(
 
 $dir = dirname(__FILE__) . '/';
 $wgAutoloadClasses['SpecialHostStats'] = $dir . 'SpecialHostStats.php';
-$wgExtensionMessagesFiles['HostStats'] = $dir . 'HostStats.i18n.php';
 $wgMessagesDirs['HostStats'] = __DIR__ . '/i18n';
+$wgExtensionMessagesFiles['HostStats'] = $dir . 'HostStats.i18n.php';
 $wgSpecialPages['HostStats'] = 'SpecialHostStats';
 $wgSpecialPageGroups['HostStats'] = 'wiki';
