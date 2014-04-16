@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Metalhead64"
-        ]
-    },
-    "hoststats-title": "Hoststatistiken",
-    "hoststats-desc": "Ergänzt ein Werkzeug zur Ausgabe von Statistiken des Hosts dieses Wikis",
-    "hoststats-intro": "Diese Seite zeigt einige Statistiken des Hosts dieses Wikis an."
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"hoststats-title": "Hoststatistiken",
+	"hoststats-desc": "Ergänzt ein Werkzeug zur Ausgabe von Statistiken des Hosts dieses Wikis",
+	"hoststats-intro": "Diese Seite zeigt einige Statistiken des Hosts dieses Wikis an."
 }

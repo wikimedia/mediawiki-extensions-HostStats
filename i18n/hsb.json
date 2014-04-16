@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "hoststats-title": "Hostowa statistika",
-    "hoststats-desc": "Nastroj za wudawanje statistiki hosta, na kotrymž wiki je.",
-    "hoststats-intro": "Tuta strona pokazuje statistiku hosta, na kotrymž wiki je."
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"hoststats-title": "Hostowa statistika",
+	"hoststats-desc": "Nastroj za wudawanje statistiki hosta, na kotrymž wiki je.",
+	"hoststats-intro": "Tuta strona pokazuje statistiku hosta, na kotrymž wiki je."
 }
