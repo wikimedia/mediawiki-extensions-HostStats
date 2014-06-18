@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil"
+		]
+	},
+	"hoststats-title": "Värdstatistik",
+	"hoststats-desc": "Ett verktyg för att få ut statistik den värd wikin är på",
+	"hoststats-intro": "Denna sida visar en del statistik för den värd wikin är på"
+}
