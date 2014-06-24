@@ -11,8 +11,14 @@ class SpecialHostStats extends SpecialPage {
 		parent::__construct( 'HostStats' );
 	}
 
-	public function execute( $par ) {
-		global $wgHostStatsCommands;
+	public function execute( $par )  {
+		global $wgOut, $wgUser, $wgHostStatsCommands;
+
+		if( !$wgUser->isAllowed( 'hoststats' ) ) {
+			$wgOut->permissionRequired( 'hoststats' );
+			return;
+		}
+
 		$this->setHeaders();
 		$this->getOutput()->setPageTitle( wfMessage( 'hoststats-title' )->escaped() );
 		$outpage = wfMessage( 'hoststats-intro' )->escaped();
