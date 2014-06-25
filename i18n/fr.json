@@ -6,5 +6,7 @@
 	},
 	"hoststats-title": "Statistiques de l'hôte",
 	"hoststats-desc": "Un outil pour sortir les statistiques de l'hôte sur lequel se trouve le wiki.",
-	"hoststats-intro": "Cette page affiche des statistiques de l'hôte sur lequel se trouve le wiki."
+	"hoststats-intro": "Cette page affiche des statistiques de l'hôte sur lequel se trouve le wiki.",
+	"right-hoststats": "Afficher les statistiques de l’hôte sur lequel est hébergé ce wiki",
+	"action-hoststats": "afficher les statistiques de l’hôte sur lequel est hébergé ce wiki"
 }
