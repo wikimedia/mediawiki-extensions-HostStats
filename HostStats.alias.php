@@ -16,5 +16,5 @@ $specialPageAliases['en'] = array(
 
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
-	'HostStats' => array( 'Hoststatisiken' ),
+	'HostStats' => array( 'Hoststatistiken' ),
 );
