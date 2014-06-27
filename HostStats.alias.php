@@ -18,3 +18,8 @@ $specialPageAliases['en'] = array(
 $specialPageAliases['de'] = array(
 	'HostStats' => array( 'Hoststatistiken' ),
 );
+
+/** Simplified Chinese (中文（简体）‎) */
+$specialPageAliases['zh-hans'] = array(
+	'HostStats' => array( '主机统计' ),
+);
