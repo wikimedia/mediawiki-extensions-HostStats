@@ -6,8 +6,8 @@
 		]
 	},
 	"hoststats-title": "Hoststatistiken",
-	"hoststats-desc": "Ergänzt ein Werkzeug zur Ausgabe von Statistiken des Hosts dieses Wikis",
-	"hoststats-intro": "Diese Seite zeigt einige Statistiken des Hosts dieses Wikis an.",
-	"right-hoststats": "Statistiken zum Host dieses Wikis ansehen",
-	"action-hoststats": "die Statistiken zum Host dieses Wikis anzusehen"
+	"hoststats-desc": "Ergänzt eine Spezialseite zur Anzeige von Statistiken des Hosts dieses Wikis",
+	"hoststats-intro": "Diese Seite zeigt Statistiken des Hosts dieses Wikis an.",
+	"right-hoststats": "Statistiken des Hosts dieses Wikis ansehen",
+	"action-hoststats": "die Statistiken des Hosts dieses Wikis anzusehen"
 }
