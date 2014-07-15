@@ -14,6 +14,16 @@ $specialPageAliases['en'] = array(
 	'HostStats' => array( 'HostStats' ),
 );
 
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'HostStats' => array( 'إحصاءات_المضيف' ),
+);
+
+/** Egyptian Spoken Arabic (مصرى) */
+$specialPageAliases['arz'] = array(
+	'HostStats' => array( 'احصاءات_المضيف' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'HostStats' => array( 'Hoststatistiken' ),
