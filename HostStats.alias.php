@@ -29,6 +29,11 @@ $specialPageAliases['de'] = array(
 	'HostStats' => array( 'Hoststatistiken' ),
 );
 
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'HostStats' => array( '호스트통계' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'HostStats' => array( 'СтатистикиЗаДомаќинот' ),

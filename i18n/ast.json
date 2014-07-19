@@ -6,5 +6,7 @@
 	},
 	"hoststats-title": "Estadístiques del sirvidor",
 	"hoststats-desc": "Ferramienta qu'amuesa les estadístiques del sirvidor nel que ta la wiki.",
-	"hoststats-intro": "Esta páxina amuesa delles estadístiques del sirvidor nel que ta la wiki."
+	"hoststats-intro": "Esta páxina amuesa delles estadístiques del sirvidor nel que ta la wiki.",
+	"right-hoststats": "Ver estadístiques del sirvidor nel que ta la wiki",
+	"action-hoststats": "ver estadístiques del sirvidor nel que ta la wiki"
 }
