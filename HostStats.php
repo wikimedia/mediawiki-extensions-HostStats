@@ -11,6 +11,13 @@
  * @ingroup Extensions
  */
 
+// Ensure that the script cannot be executed outside of MediaWiki.
+if ( ! defined( 'MEDIAWIKI' ) ) {
+	echo "Not a valid entry point!";
+	exit( 1 );
+}
+
+// Display extension properties on MediaWiki.
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'HostStats',
@@ -20,7 +27,7 @@ $wgExtensionCredits['specialpage'][] = array(
 		),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:HostStats',
 	'descriptionmsg' => 'hoststats-desc',
-	'version' => '1.3.0',
+	'version' => '1.3.1',
 	'license-name' => 'GPL-3.0+'
 );
 
@@ -30,11 +37,17 @@ $wgHostStatsCommands = array(
 	'df -h'
 );
 
-$dir = dirname(__FILE__) . '/';
-$wgAutoloadClasses['SpecialHostStats'] = $dir . 'SpecialHostStats.php';
+// Register extension class.
+$wgAutoloadClasses['SpecialHostStats'] = __DIR__ . '/SpecialHostStats.php';
+
+// Register extension messages and other localisation.
 $wgMessagesDirs['HostStats'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['HostStats'] = $dir . 'HostStats.i18n.php';
-$wgExtensionMessagesFiles['HostStatsAlias'] = $dir . 'HostStats.alias.php';
+$wgExtensionMessagesFiles['HostStats'] = __DIR__ . '/HostStats.i18n.php';
+$wgExtensionMessagesFiles['HostStatsAlias'] = __DIR__ . '/HostStats.alias.php';
+
+// Register special page into MediaWiki.
 $wgSpecialPages['HostStats'] = 'SpecialHostStats';
 $wgSpecialPageGroups['HostStats'] = 'wiki';
+
+// Create new right.
 $wgAvailableRights[] = 'hoststats';
