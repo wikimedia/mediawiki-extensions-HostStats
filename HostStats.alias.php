@@ -43,3 +43,8 @@ $specialPageAliases['mk'] = array(
 $specialPageAliases['zh-hans'] = array(
 	'HostStats' => array( '主机统计' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$specialPageAliases['zh-hant'] = array(
+	'HostStats' => array( '主機統計' ),
+);
