@@ -12,9 +12,8 @@
  */
 
 // Ensure that the script cannot be executed outside of MediaWiki.
-if ( ! defined( 'MEDIAWIKI' ) ) {
-	echo "Not a valid entry point!";
-	exit( 1 );
+if ( !defined( 'MEDIAWIKI' ) ) {
+    die( 'This is an extension to the MediaWiki package and cannot be run standalone.' );
 }
 
 // Display extension properties on MediaWiki.
