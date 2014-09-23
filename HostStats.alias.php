@@ -39,6 +39,11 @@ $specialPageAliases['mk'] = array(
 	'HostStats' => array( 'СтатистикиЗаДомаќинот' ),
 );
 
+/** Swedish (svenska) */
+$specialPageAliases['sv'] = array(
+	'HostStats' => array( 'Värdstatistik' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'HostStats' => array( '主机统计' ),
