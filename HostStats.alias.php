@@ -29,6 +29,11 @@ $specialPageAliases['de'] = array(
 	'HostStats' => array( 'Hoststatistiken' ),
 );
 
+/** Persian (فارسی) */
+$specialPageAliases['fa'] = array(
+	'HostStats' => array( 'آمار_میزبان' ),
+);
+
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
 	'HostStats' => array( '호스트통계' ),
