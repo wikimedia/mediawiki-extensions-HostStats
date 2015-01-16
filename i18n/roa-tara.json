@@ -6,5 +6,7 @@
 	},
 	"hoststats-title": "Statisteche de l'host",
 	"hoststats-desc": "'Nu strumende pe dà le statisteche de l'host addò ste 'a uicchi",
-	"hoststats-intro": "Sta pàgene face vedè quacche statisteche de l'host addò se iacchie 'a uicchi."
+	"hoststats-intro": "Sta pàgene face vedè quacche statisteche de l'host addò se iacchie 'a uicchi.",
+	"right-hoststats": "'Ndruche le statisteche de l'host addò ste 'a uicchi",
+	"action-hoststats": "'ndruche le statisteche de l'host addò ste 'a uicchi"
 }
