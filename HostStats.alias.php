@@ -44,6 +44,11 @@ $specialPageAliases['mk'] = array(
 	'HostStats' => array( 'СтатистикиЗаДомаќинот' ),
 );
 
+/** Dutch (Nederlands) */
+$specialPageAliases['nl'] = array(
+	'HostStats' => array( 'Hoststatistieken' ),
+);
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'HostStats' => array( 'Värdstatistik' ),
