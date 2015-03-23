@@ -3,12 +3,13 @@
 		"authors": [
 			"Hydriz",
 			"Kghbln",
-			"Shirayuki"
+			"Shirayuki",
+			"Umherirrender"
 		]
 	},
 	"hoststats": "{{notranslate}}\nRefers to {{msg-mw|Hoststats-title}}.",
 	"hoststats-title": "{{doc-special|HostStats}}\n\"Host\" refers to the server the wiki is on.",
-	"hoststats-desc": "{{desc|name=Host Stats|url=http://www.mediawiki.org/wiki/Extension:HostStats}}",
+	"hoststats-desc": "{{desc|name=Host Stats|url=https://www.mediawiki.org/wiki/Extension:HostStats}}",
 	"hoststats-intro": "The introduction to the special page. \"Host\" refers to the server the wiki is on.",
 	"right-hoststats": "{{doc-right|hoststats}}",
 	"action-hoststats": "{{doc-action|hoststats}}"
