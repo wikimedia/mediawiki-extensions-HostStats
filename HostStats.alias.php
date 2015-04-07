@@ -24,6 +24,11 @@ $specialPageAliases['arz'] = array(
 	'HostStats' => array( 'احصاءات_المضيف' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'HostStats' => array( 'گیس_واوندی_سرجم' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'HostStats' => array( 'Hoststatistiken' ),
