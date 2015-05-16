@@ -46,7 +46,6 @@ $wgExtensionMessagesFiles['HostStatsAlias'] = __DIR__ . '/HostStats.alias.php';
 
 // Register special page into MediaWiki.
 $wgSpecialPages['HostStats'] = 'SpecialHostStats';
-$wgSpecialPageGroups['HostStats'] = 'wiki';
 
 // Create new right.
 $wgAvailableRights[] = 'hoststats';

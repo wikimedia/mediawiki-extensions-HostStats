@@ -34,4 +34,8 @@ class SpecialHostStats extends SpecialPage {
 		$output = wfShellExec( $query );
 		return $output;
 	}
+
+	protected function getGroupName() {
+		return 'wiki';
+	}
 }
