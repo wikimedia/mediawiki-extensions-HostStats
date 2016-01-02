@@ -15,8 +15,7 @@ class SpecialHostStats extends SpecialPage {
 		global $wgOut, $wgUser, $wgHostStatsCommands;
 
 		if( !$wgUser->isAllowed( 'hoststats' ) ) {
-			$wgOut->permissionRequired( 'hoststats' );
-			return;
+			throw new PermissionsError( 'hoststats' );
 		}
 
 		$this->setHeaders();
