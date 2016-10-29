@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"hoststats-title": "Estatísticas do servidor",
+	"hoststats-desc": "Uma ferramenta que produz estatísticas do servidor onde a wiki está alojada",
+	"hoststats-intro": "Esta página apresenta algumas estatísticas do servidor onde a wiki está alojada.",
+	"right-hoststats": "Ver estatísticas do servidor onde a wiki está alojada",
+	"action-hoststats": "ver estatísticas do servidor onde a wiki está alojada"
+}
