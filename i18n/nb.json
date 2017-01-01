@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"hoststats-title": "Vertstatistikk",
+	"hoststats-desc": "Et verktøy som viser statistikk for verten wikien er på",
+	"hoststats-intro": "Denne siden viser statistikk for verten wikien er på.",
+	"right-hoststats": "Vise statistikk for verten wikien er på",
+	"action-hoststats": "vise statistikk for verten wikien er på"
+}
