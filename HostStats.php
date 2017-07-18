@@ -26,7 +26,7 @@ $wgExtensionCredits['specialpage'][] = array(
 		),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:HostStats',
 	'descriptionmsg' => 'hoststats-desc',
-	'version' => '1.3.1',
+	'version' => '1.4.0',
 	'license-name' => 'GPL-3.0+'
 );
 
@@ -41,7 +41,6 @@ $wgAutoloadClasses['SpecialHostStats'] = __DIR__ . '/SpecialHostStats.php';
 
 // Register extension messages and other localisation.
 $wgMessagesDirs['HostStats'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['HostStats'] = __DIR__ . '/HostStats.i18n.php';
 $wgExtensionMessagesFiles['HostStatsAlias'] = __DIR__ . '/HostStats.alias.php';
 
 // Register special page into MediaWiki.

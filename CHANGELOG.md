@@ -2,6 +2,12 @@
 
 HostStats is a MediaWiki extension for displaying the host statistics of the server hosting the wiki. This file documents the development changes.
 
+### 1.4.0
+
+Released on 2017-07-18
+
+- Removed I18n shim for php files
+
 ### 1.3.1
 
 Released on 2014-08-10
