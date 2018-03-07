@@ -11,40 +11,16 @@
  * @ingroup Extensions
  */
 
-// Ensure that the script cannot be executed outside of MediaWiki.
-if ( !defined( 'MEDIAWIKI' ) ) {
-    die( 'This is an extension to the MediaWiki package and cannot be run standalone.' );
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'HostStats' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['HostStats'] = __DIR__ . '/i18n';
+	$wgExtensionMessagesFiles['HostStatsAlias'] = __DIR__ . '/HostStats.alias.php';
+	/* wfWarn(
+		'Deprecated PHP entry point used for HostStats extension. Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	); */
+	return true;
+} else {
+	die( 'This version of the HostStats extension requires MediaWiki 1.29+' );
 }
-
-// Display extension properties on MediaWiki.
-$wgExtensionCredits['specialpage'][] = array(
-	'path' => __FILE__,
-	'name' => 'HostStats',
-	'author' => array(
-		'Hydriz',
-		'...'
-		),
-	'url' => 'https://www.mediawiki.org/wiki/Extension:HostStats',
-	'descriptionmsg' => 'hoststats-desc',
-	'version' => '1.4.0',
-	'license-name' => 'GPL-3.0-or-later'
-);
-
-// An array of commands that you wish to run and output.
-$wgHostStatsCommands = array(
-	'hostname',
-	'df -h'
-);
-
-// Register extension class.
-$wgAutoloadClasses['SpecialHostStats'] = __DIR__ . '/SpecialHostStats.php';
-
-// Register extension messages and other localisation.
-$wgMessagesDirs['HostStats'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['HostStatsAlias'] = __DIR__ . '/HostStats.alias.php';
-
-// Register special page into MediaWiki.
-$wgSpecialPages['HostStats'] = 'SpecialHostStats';
-
-// Create new right.
-$wgAvailableRights[] = 'hoststats';
