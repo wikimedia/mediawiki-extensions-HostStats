@@ -6,8 +6,8 @@
 		]
 	},
 	"hoststats-title": "Estatísticas do servidor",
-	"hoststats-desc": "Unha ferramenta que mostra as estatísticas do servidor no que se atopa este wiki.",
-	"hoststats-intro": "Esta páxina mostra algunhas estatísticas do servidor no que se atopa este wiki.",
+	"hoststats-desc": "Unha ferramenta que amosa as estatísticas do servidor no que se atopa este wiki",
+	"hoststats-intro": "Esta páxina amosa algunhas estatísticas do servidor no que se atopa este wiki.",
 	"right-hoststats": "Ver as estatísticas do servidor no que está a wiki",
 	"action-hoststats": "ver as estatísticas do servidor no que está a wiki"
 }
