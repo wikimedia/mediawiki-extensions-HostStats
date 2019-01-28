@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Woytecr"
+			"Woytecr",
+			"Railfail536"
 		]
 	},
 	"hoststats-title": "Statystyki serwera",
 	"hoststats-desc": "Narzędzie do wyświetlania statystyk serwera, na którym uruchomiona jest wiki",
-	"hoststats-intro": "Ta strona pokazuje statystyki serwera, na którym uruchomiona jest wiki"
+	"hoststats-intro": "Ta strona pokazuje statystyki serwera, na którym uruchomiona jest wiki",
+	"right-hoststats": "Podgląd statystyk serwera wiki",
+	"action-hoststats": "podglądu statystyk serwera wiki"
 }
