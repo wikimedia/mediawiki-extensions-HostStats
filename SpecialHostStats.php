@@ -12,9 +12,9 @@ class SpecialHostStats extends SpecialPage {
 	}
 
 	public function execute( $par )  {
-		global $wgOut, $wgUser, $wgHostStatsCommands;
+		global $wgHostStatsCommands;
 
-		if( !$wgUser->isAllowed( 'hoststats' ) ) {
+		if( !$this->getUser()->isAllowed( 'hoststats' ) ) {
 			throw new PermissionsError( 'hoststats' );
 		}
 
