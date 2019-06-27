@@ -6,64 +6,64 @@
  * @ingroup Extensions
  */
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'HostStats' => array( 'HostStats' ),
-);
+$specialPageAliases['en'] = [
+	'HostStats' => ['HostStats' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'HostStats' => array( 'إحصاءات_المضيف' ),
-);
+$specialPageAliases['ar'] = [
+	'HostStats' => [ 'إحصاءات_المضيف' ],
+];
 
 /** Egyptian Arabic (مصرى) */
-$specialPageAliases['arz'] = array(
-	'HostStats' => array( 'احصاءات_المضيف' ),
-);
+$specialPageAliases['arz'] = [
+	'HostStats' => [ 'احصاءات_المضيف' ],
+];
 
 /** Western Balochi (بلوچی رخشانی) */
-$specialPageAliases['bgn'] = array(
-	'HostStats' => array( 'گیس_واوندی_سرجم' ),
-);
+$specialPageAliases['bgn'] = [
+	'HostStats' => [ 'گیس_واوندی_سرجم' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'HostStats' => array( 'Hoststatistiken' ),
-);
+$specialPageAliases['de'] = [
+	'HostStats' => [ 'Hoststatistiken' ],
+];
 
 /** Persian (فارسی) */
-$specialPageAliases['fa'] = array(
-	'HostStats' => array( 'آمار_میزبان' ),
-);
+$specialPageAliases['fa'] = [
+	'HostStats' => [ 'آمار_میزبان' ],
+];
 
 /** Korean (한국어) */
-$specialPageAliases['ko'] = array(
-	'HostStats' => array( '호스트통계' ),
-);
+$specialPageAliases['ko'] = [
+	'HostStats' => [ '호스트통계' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'HostStats' => array( 'СтатистикиЗаДомаќинот' ),
-);
+$specialPageAliases['mk'] = [
+	'HostStats' => [ 'СтатистикиЗаДомаќинот' ],
+];
 
 /** Dutch (Nederlands) */
-$specialPageAliases['nl'] = array(
-	'HostStats' => array( 'Hoststatistieken' ),
-);
+$specialPageAliases['nl'] = [
+	'HostStats' => [ 'Hoststatistieken' ],
+];
 
 /** Swedish (svenska) */
-$specialPageAliases['sv'] = array(
-	'HostStats' => array( 'Värdstatistik' ),
-);
+$specialPageAliases['sv'] = [
+	'HostStats' => [ 'Värdstatistik' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = array(
-	'HostStats' => array( '主机统计' ),
-);
+$specialPageAliases['zh-hans'] = [
+	'HostStats' => [ '主机统计' ],
+];
 
 /** Traditional Chinese (中文（繁體）‎) */
-$specialPageAliases['zh-hant'] = array(
-	'HostStats' => array( '主機統計' ),
-);
+$specialPageAliases['zh-hant'] = [
+	'HostStats' => [ '主機統計' ],
+];
