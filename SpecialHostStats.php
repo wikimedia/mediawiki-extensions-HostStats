@@ -26,7 +26,7 @@ class SpecialHostStats extends SpecialPage {
 			$outpage .= '<h3>' . $cmd . '</h3>';
 			$outpage .= "\n<pre>\n" . $this->query( $cmd ) . "</pre>";
 		}
-		$this->getOutput()->addWikiText( $outpage );
+		$this->getOutput()->addWikiTextAsInterface( $outpage );
 	}
 
 	protected function query( $query ) {
