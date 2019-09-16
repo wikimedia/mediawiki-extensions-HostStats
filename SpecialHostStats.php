@@ -1,7 +1,7 @@
 <?php
 /**
  * The file that implements Special:HostStats.
- * 
+ *
  * @file
  * @ingroup Extensions
  */
