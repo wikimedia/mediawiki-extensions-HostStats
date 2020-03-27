@@ -11,10 +11,13 @@ class SpecialHostStats extends SpecialPage {
 		parent::__construct( 'HostStats' );
 	}
 
-	public function execute( $par )  {
+	/**
+	 * @param string|null $par
+	 */
+	public function execute( $par ) {
 		global $wgHostStatsCommands;
 
-		if( !$this->getUser()->isAllowed( 'hoststats' ) ) {
+		if ( !$this->getUser()->isAllowed( 'hoststats' ) ) {
 			throw new PermissionsError( 'hoststats' );
 		}
 
@@ -29,11 +32,17 @@ class SpecialHostStats extends SpecialPage {
 		$this->getOutput()->addWikiTextAsInterface( $outpage );
 	}
 
+	/**
+	 * @inheritDoc
+	 */
 	protected function query( $query ) {
 		$output = wfShellExec( $query );
 		return $output;
 	}
 
+	/**
+	 * @return string
+	 */
 	protected function getGroupName() {
 		return 'wiki';
 	}

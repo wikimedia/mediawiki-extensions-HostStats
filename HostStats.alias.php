@@ -10,7 +10,7 @@ $specialPageAliases = [];
 
 /** English (English) */
 $specialPageAliases['en'] = [
-	'HostStats' => ['HostStats' ],
+	'HostStats' => [ 'HostStats' ],
 ];
 
 /** Arabic (العربية) */
