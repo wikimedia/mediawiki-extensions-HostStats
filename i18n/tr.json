@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
 		]
 	},
-	"hoststats-title": "Ana bilgisayar istatistikleri",
-	"hoststats-desc": "Wikinin bulunduğu ana bilgisayar istatistiklerini çıktısı alma aracı",
-	"hoststats-intro": "Bu sayfa wikinin açık olduğu bazı ana bilgisayar istatistiklerini gösterir.",
-	"right-hoststats": "Wikinin açık olduğu ana bilgisayar istatistiklerini görüntüleyin",
-	"action-hoststats": "wikinin açık olduğu ana bilgisayar istatistiklerini görüntüleyin"
+	"hoststats-title": "Barındırma istatistikleri",
+	"hoststats-desc": "Vikinin bulunduğu ana bilgisayar istatistiklerini çıkışı alma aracı",
+	"hoststats-intro": "Bu sayfa vikinin açık olduğu bazı barındırma istatistiklerini gösterir.",
+	"right-hoststats": "Vikinin açık olduğu barındırma istatistiklerini görüntüle",
+	"action-hoststats": "vikinin açık olduğu barındırma istatistiklerini görüntüle"
 }
