@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Esketti",
-			"Siebrand"
+			"Siebrand",
+			"McDutchie"
 		]
 	},
 	"hoststats-title": "Hoststatistieken",
 	"hoststats-desc": "Een hulpmiddel om de hoststatistieken waar de wiki op draait",
 	"hoststats-intro": "Op deze pagina worden de hoststatistieken waar de wiki op draait weergegeven.",
-	"right-hoststats": "Bekijk de host statistieken dat de wiki is op",
-	"action-hoststats": "bekijk de host statistieken dat de wiki is op"
+	"right-hoststats": "De statistieken bekijken van de host waar de wiki op staat",
+	"action-hoststats": "de statistieken te bekijken van de host waar de wiki op staat"
 }
