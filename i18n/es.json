@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Armando-Martin",
-			"Jakeukalane"
+			"Jakeukalane",
+			"DiegoAmbrocio"
 		]
 	},
 	"hoststats-title": "Estadísticas del servidor",
 	"hoststats-desc": "Una herramienta muestra las estadísticas del servidor en que encuentra la wiki.",
-	"hoststats-intro": "Esta página muestra algunas estadísticas del servidor en el que se encuentra la wiki."
+	"hoststats-intro": "Esta página muestra algunas estadísticas del servidor en el que se encuentra la wiki.",
+	"right-hoststats": "Ver las estadísticas del anfitrión en el que se encuentra el wiki"
 }
