@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"hoststats-title": "Statisticas del servitor",
+	"hoststats-desc": "Un utensile pro monstrar le statisticas del servitor sur le qual se trova le wiki",
+	"hoststats-intro": "Iste pagina monstra statisticas del servitor sur le qual se trova le wiki.",
+	"right-hoststats": "Monstrar statisticas del servitor sur le qual se trova iste wiki",
+	"action-hoststats": "monstrar statisticas del servitor sur le qual se trova iste wiki"
+}
