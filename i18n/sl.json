@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"hoststats-title": "Statistika gostitelja",
+	"hoststats-desc": "Orodje za izpis statistike gostitelja vikija",
+	"hoststats-intro": "Ta stran prikaže nekatere statistične podatke o gostitelju vikija.",
+	"right-hoststats": "Ogled statistike gostitelja vikija",
+	"action-hoststats": "ogled statistike gostitelja vikija"
+}
