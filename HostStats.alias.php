@@ -58,12 +58,17 @@ $specialPageAliases['sv'] = [
 	'HostStats' => [ 'Värdstatistik' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'HostStats' => [ 'HostStats' ],
+];
+
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'HostStats' => [ '主机统计' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'HostStats' => [ '主機統計' ],
 ];
