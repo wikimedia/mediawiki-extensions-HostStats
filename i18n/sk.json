@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"hoststats-title": "Štatistiky hostiteľa",
+	"hoststats-desc": "Nástroj na výpis štatistík hostiteľa, na ktorom wiki beží",
+	"hoststats-intro": "Táto stránka zobrazuje niektoré štatistiky hostiteľa, na ktorom táto wiki beží.",
+	"right-hoststats": "Zobraziť štatistiky hostiteľa, na ktorom wiki beží",
+	"action-hoststats": "zobraziť štatistiky hostiteľa, na ktorom wiki beží"
+}
